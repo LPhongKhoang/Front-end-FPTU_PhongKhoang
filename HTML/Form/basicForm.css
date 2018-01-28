@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+
+#container{
+    background-color: #6BA9E8;
+    padding: 2px 20px;
+}
+
+/*===== #logo ==== */
+
+#logo{
+    background-color: #5CEDE6;
+    margin: 0 30%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 9px 9px #B4B8B7;
+    margin-bottom: 100px;
+    
+}
+#logo h1{
+    margin: 0 0;
+}
+#logo hr{
+    height: 5px;
+    background-color: #000000;
+    border: none;
+    margin: 0 0;
+}
+
+/*==== #content ==== */
+#content{
+    text-align: center;
+}
+#content #register{
+    text-align: left;
+    margin: 20px 15%;
+}
+#content #register form label{
+    display: inline-block;
+    width: 200px;
+
+    margin-right: 20px;
+    margin: 3px 0;
+
+}
+#content #register form .label_inline{
+    width: auto;
+    margin-right: 5px;
+}
+#content #register form input{
+    margin: 3px 0;
+}
+#content #register form hr{
+    background-color: gray;
+    height: 2px;
+    border: none;
+    margin: 10px 0;
+}
+
+#content #register form #container_useFor, #container_checkApply, #container_comment{
+    overflow: hidden;
+    /* background-color: green; */
+    /* border: 1px solid; */
+    padding-top: 20px;
+}
+#content #register form #container_useFor label, #usedFor{
+
+    float: left;
+
+}
+#content #register form #container_checkApply label, #checkApply{
+
+    float: left;
+}
+#content #register form #container_comment label, textarea{
+    float: left;
+}
+
+#content #register form #container_useFor #usedFor{
+    padding-top: 5px;
+    margin-left: -55px;
+    /* background-color: yellow; */
+}
+#content #register form #container_checkApply #checkApply{
+    padding-top: 5px;
+    margin-left: -55px;
+    /* background-color: pink; */
+}
+#content #register form #container_comment textarea{
+    margin-top: -22px;
+    margin-left: 0;
+    /* background-color: orange; */
+}
+/* span */
+#content #register form span{
+    display: inline-block;
+
+    width: 200px;
+    margin: 0 60px;
+}
+
+/*=== #btn_control =====*/
+#content #register #btn_control{
+    padding-top: 20px;
+    padding-left: 200px;
+}
