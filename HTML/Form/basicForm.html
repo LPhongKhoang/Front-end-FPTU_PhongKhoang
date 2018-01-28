@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="utf-8" />
+        <meta name="description" content='phong khoang pro'/>
+        <meta name='keywords' content='html, css, js, web' />
+        <meta name='author' content='phong khoang' />
+        <link rel="stylesheet" href='registrationForm.css' />
+
+    </head>
+    <body>
+        <div id='container'>
+            <div id='logo'>
+                <h1>Jackson</h1>
+                <hr>
+                <h1>Electronics</h1>
+            </div>
+            <div id='content'>
+                <div id='titleForm'>
+                    <h2>Registration Form</h2>
+                    <p>Register your Jackson Electronics product here</p>
+
+                <div id='register'>
+                    <form action='index.php' method='post' name='registerForm'>
+                        <label>First Name:</label> <input type='text' name='firstName' size='15' />
+                            <label class='label_inline'>LastName: </label> <input type='text' name='lastName' size='15'/></br>
+                        <label>Address #1:</label> <input type='text' name='address1' size='30' /> </br>
+                        <label>Address #2:</label> <input type='text' name='address2' size='30'/> </br>
+                        <label>City:</label> <input type='text' name='city' size='23'/>
+                            <label class='label_inline'>State:</label> <input type='text' name='state' size='3'/>
+                            <label class='label_inline'>Zip:</label> <input type='text' name='zip' size='9'/></br>
+                        <label>Country:</label> <input type='text' name='country' value="United States" />
+                        <hr>
+                        <label>Product</label>
+                        <select name='product'>
+                            <option value='ScanMaster'>ScanMaster</option>
+                            <option value='Printer'>Printer</option>
+                            <option value='Laptop'>Laptop</option>
+                            <option value='PC'>PC</option>
+                        </select>
+                        </br>
+                        <label>Date Purchased:</label> <input type='text' name='datePurchased' size='23' /></br>
+                        <label>Serial #:</label> <input type='text' name='serial' size='23' /></br>
+                        <div id='container_useFor'>
+                            <label>Used for:</label>
+                            <div id='usedFor'>
+                                <span><input type='radio' name='used_for' value='Home'/>Home</span>
+                                <span><input type='radio' name='used_for' value='education'/>Educational Institution</span></br>
+                                <span><input type='radio' name='used_for' value='Business' checked/>Business</span>
+                                <span><input type='radio' name='used_for' value='Other'/>Other</span></br>
+                                <span><input type='radio' name='used_for' value='Government'/>Government</span>
+                            </div>
+                        </div>
+                        <div id='container_checkApply'>
+                            <label>System (check all that apply):</label>
+                            <div id='checkApply'>
+                                <span><input type='checkbox' name='checkApply1' value='Windows'/>Windows</span>
+                                <span><input type='checkbox' name='checkApply2' value='UNIX'/>UNIX</span></br>
+                                <span><input type='checkbox' name='checkApply3' value='Macintosh'/>Macintosh</span>
+                                <span><input type='checkbox' name='checkApply4' value='Other'/>Other</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id='container_comment'>
+                            <label>comments?:</label>
+                            <textarea name='comments' rows="10" cols="80"/> </textarea>
+                        </div>
+                        <div id='btn_control'>
+                            <input type='submit' value="Click to register" /> <input type='reset' value="Click to cancel" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
