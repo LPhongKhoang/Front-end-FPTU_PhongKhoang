@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-image: url('../image/wallbody1.jpg');
+    background-attachment: fixed;
+}
+
+
+#container{
+    margin: 5px 15%;
+    background-color: #DFE5EB;
+    height: 100%;
+    position: relative;
+    border: 2px solid #efefef;
+}
+
+/*=== #menu ===*/
+
+#menu{
+    position: fixed;
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 100%;
+}
+#menu p{
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    color: #ffffff;
+    background-color: #000001;
+    margin: 5px 15%;
+}
+#menu h4{
+    padding-left: 5%;
+    color: yellow;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0 5%;
+
+}
+#menu ul li a{
+    display: block;
+    color: #EBF2EF;
+    height: 30px;
+    transition: all 0.5s  ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+#menu ul li:hover a{
+    color: orange;
+    font-size: 18px;
+}
+
+/*==== #Content ==== */
+
+#content{
+    margin-left: 200px;
+}
+
+#content #logo{
+    padding: 1.5%;
+}
+
+
+#content #artical{
+    padding: 0.8%;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+#content #artical #section{
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    padding-right: 1%;
+}
+#content #artical h4{
+    color: red;
+    text-align: center;
+
+}
+#content #artical #section img{
+    float: right;
+    margin: 1%;
+}
+/*---- #right_side ---*/
+#content #artical #right_side{
+    padding: 0;
+    float: left;
+    width: 35%;
+}
+    /* #sidebar*/
+#content #artical #right_side #sidebar{
+    background-color: yellow;
+    overflow: auto;
+    padding-bottom: 0;
+    padding-top: 20px;
+    color: #C44393;
+}
+#content #artical #right_side #sidebar h4{
+    color: #C44393;
+}
+#content #artical #right_side #sidebar p{
+    padding-left: 2px;
+    padding-right: 50px;
+}
+
+    /* #profile */
+#content #artical #right_side #profile img{
+    float: right;
+}
